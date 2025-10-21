@@ -13,7 +13,7 @@ pipeline{
         stage('Run python script'){
             steps{
                 echo "Running the python script from the git repository"
-                sh 'Python3 numbers.py'
+                sh 'python3 numbers.py'
             }
         }
     }
